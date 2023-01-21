@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dDataPesanan" targetNamespace="http://tempuri.org/dDataPesanan.xsd" xmlns:mstns="http://tempuri.org/dDataPesanan.xsd" xmlns="http://tempuri.org/dDataPesanan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dDataPesanan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dDataPesanan" msprop:Generator_UserDSName="dDataPesanan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataPesanan" msprop:Generator_TableClassName="DataPesananDataTable" msprop:Generator_TableVarName="tableDataPesanan" msprop:Generator_TablePropName="DataPesanan" msprop:Generator_RowDeletingName="DataPesananRowDeleting" msprop:Generator_RowChangingName="DataPesananRowChanging" msprop:Generator_RowEvHandlerName="DataPesananRowChangeEventHandler" msprop:Generator_RowDeletedName="DataPesananRowDeleted" msprop:Generator_UserTableName="DataPesanan" msprop:Generator_RowChangedName="DataPesananRowChanged" msprop:Generator_RowEvArgName="DataPesananRowChangeEvent" msprop:Generator_RowClassName="DataPesananRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdTransaksi" msprop:Generator_ColumnVarNameInTable="columnIdTransaksi" msprop:Generator_ColumnPropNameInRow="IdTransaksi" msprop:Generator_ColumnPropNameInTable="IdTransaksiColumn" msprop:Generator_UserColumnName="IdTransaksi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nama" msprop:Generator_ColumnVarNameInTable="columnNama" msprop:Generator_ColumnPropNameInRow="Nama" msprop:Generator_ColumnPropNameInTable="NamaColumn" msprop:Generator_UserColumnName="Nama">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NamaPesanan" msprop:Generator_ColumnVarNameInTable="columnNamaPesanan" msprop:Generator_ColumnPropNameInRow="NamaPesanan" msprop:Generator_ColumnPropNameInTable="NamaPesananColumn" msprop:Generator_UserColumnName="NamaPesanan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HargaPesanan" msprop:Generator_ColumnVarNameInTable="columnHargaPesanan" msprop:Generator_ColumnPropNameInRow="HargaPesanan" msprop:Generator_ColumnPropNameInTable="HargaPesananColumn" msprop:Generator_UserColumnName="HargaPesanan" type="xs:int" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:int" />
+              <xs:element name="Total_x0020_Harga" msprop:Generator_ColumnVarNameInTable="columnTotal_Harga" msprop:Generator_ColumnPropNameInRow="Total_Harga" msprop:Generator_ColumnPropNameInTable="Total_HargaColumn" msprop:Generator_UserColumnName="Total Harga">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatusPenjualan" msprop:Generator_ColumnVarNameInTable="columnStatusPenjualan" msprop:Generator_ColumnPropNameInRow="StatusPenjualan" msprop:Generator_ColumnPropNameInTable="StatusPenjualanColumn" msprop:Generator_UserColumnName="StatusPenjualan">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Produk" msprop:Generator_TableClassName="ProdukDataTable" msprop:Generator_TableVarName="tableProduk" msprop:Generator_TablePropName="Produk" msprop:Generator_RowDeletingName="ProdukRowDeleting" msprop:Generator_RowChangingName="ProdukRowChanging" msprop:Generator_RowEvHandlerName="ProdukRowChangeEventHandler" msprop:Generator_RowDeletedName="ProdukRowDeleted" msprop:Generator_UserTableName="Produk" msprop:Generator_RowChangedName="ProdukRowChanged" msprop:Generator_RowEvArgName="ProdukRowChangeEvent" msprop:Generator_RowClassName="ProdukRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeProduk" msdata:Caption="IdTransaksi" msprop:Generator_ColumnVarNameInTable="columnKodeProduk" msprop:Generator_ColumnPropNameInRow="KodeProduk" msprop:Generator_ColumnPropNameInTable="KodeProdukColumn" msprop:Generator_UserColumnName="KodeProduk">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NamaProduk" msdata:Caption="Nama" msprop:Generator_ColumnVarNameInTable="columnNamaProduk" msprop:Generator_ColumnPropNameInRow="NamaProduk" msprop:Generator_ColumnPropNameInTable="NamaProdukColumn" msprop:Generator_UserColumnName="NamaProduk">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HargaProduk" msdata:Caption="NamaPesanan" msprop:Generator_ColumnVarNameInTable="columnHargaProduk" msprop:Generator_ColumnPropNameInRow="HargaProduk" msprop:Generator_ColumnPropNameInTable="HargaProdukColumn" msprop:Generator_UserColumnName="HargaProduk" type="xs:int" />
+              <xs:element name="StockProduk" msdata:Caption="HargaPesanan" msprop:Generator_ColumnVarNameInTable="columnStockProduk" msprop:Generator_ColumnPropNameInRow="StockProduk" msprop:Generator_ColumnPropNameInTable="StockProdukColumn" msprop:Generator_UserColumnName="StockProduk" type="xs:int" />
+              <xs:element name="StatusProduk" msdata:Caption="Qty" msprop:Generator_ColumnVarNameInTable="columnStatusProduk" msprop:Generator_ColumnPropNameInRow="StatusProduk" msprop:Generator_ColumnPropNameInTable="StatusProdukColumn" msprop:Generator_UserColumnName="StatusProduk">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_x0020_Harga" msprop:Generator_ColumnVarNameInTable="columnTotal_Harga" msprop:Generator_ColumnPropNameInRow="Total_Harga" msprop:Generator_ColumnPropNameInTable="Total_HargaColumn" msprop:Generator_UserColumnName="Total Harga" type="xs:int" />
+              <xs:element name="TanggalProduk" msdata:Caption="StatusPenjualan" msprop:Generator_ColumnVarNameInTable="columnTanggalProduk" msprop:Generator_ColumnPropNameInRow="TanggalProduk" msprop:Generator_ColumnPropNameInTable="TanggalProdukColumn" msprop:Generator_UserColumnName="TanggalProduk" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataPesanan" />
+      <xs:field xpath="mstns:IdTransaksi" />
+    </xs:unique>
+    <xs:unique name="Produk_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Produk" />
+      <xs:field xpath="mstns:KodeProduk" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
